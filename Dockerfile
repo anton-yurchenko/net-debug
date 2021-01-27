@@ -1,3 +1,3 @@
 FROM nginx
 RUN apt update && \
-    apt install iputils-ping
+    apt install -y iputils-ping
